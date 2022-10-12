@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    font-family: "Arial";
+}  
+
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(230, 230, 233);
+    align-items: center;
+    user-select: none;
+}
+
+.header{
+    width: 100vw;
+    height: 20vh;
+    
+}
+
+.menu-a{
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow-y: hidden;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.logo img{
+    height: 300px;
+    overflow-y: hidden;
+}
+
+div.container{
+    margin-top: 10vh;
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+div.container{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+  
+}
+
+div.container form{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.container form input{
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    outline: 0;
+    margin: 10px;
+}
+
+div.container form input::-webkit-inner-spin-button{
+    display: none;
+}
+
+div.container div{ 
+    display: flex;
+    align-items: center;
+}
+
+
+button{
+    margin-top: 30px;
+    padding:10px;
+    font-size: 16px;
+    width: 10vw;
+}
+
+button:hover{
+    background-color: rgb(74, 151, 122);
+    color: white;
+}
+
+span{
+    font-size: 25px;
+    padding: 20px;
+}
